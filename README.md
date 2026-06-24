@@ -36,6 +36,17 @@ Public/
 
 ---
 
+## ⚙️ Setup do projeto
+
+Este projeto utiliza **Composer** para autoload seguindo o padrão **PSR-4**.
+
+### Instalação das dependências
+
+```bash
+composer install
+
+---
+
 ## 🚀 Tecnologias
 
 - PHP 8+
@@ -51,13 +62,15 @@ Public/
 ### Sprint 1 - Fundação
 
 - [x] Estrutura inicial do projeto
+- [x] Configuração do Composer (autoload PSR-4)
+- [x] Configuração de URLs amigáveis (.htaccess)
 
 ---
 
 ## 📌 Status do projeto
 
 🚧 Em desenvolvimento  
-Versão: 0.1.0
+Versão: 0.1.1
 
 ---
 

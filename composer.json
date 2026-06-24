@@ -1,0 +1,11 @@
+{
+  "name": "fsn/neves-framework",
+  "description": "Micro MVC framework for study purposes",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "require": {}
+}
