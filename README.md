@@ -28,30 +28,30 @@ Atualmente o projeto já possui um fluxo MVC funcional básico, com Controller a
 
 ## 📁 Estrutura do projeto
 
-NevesFramework/
-├── App/
-│ ├── Controllers/
-│ │ └── HomeController.php
-│ ├── Core/
-│ │ ├── Controller.php
-│ │ ├── Router.php
-│ │ ├── View.php
-│ │ └── Database.php
-│ ├── Models/
-│ └── Views/
-│ └── home/
-│ └── indexView.php
-│
-├── Public/
-│ ├── index.php
-│ └── .htaccess
-│
-├── vendor/
-├── .env
-├── .env.example
-├── .gitignore
-├── composer.json
-├── composer.lock
+📦 NevesFramework  
+├── 📁 App  
+│   ├── 📁 Controllers  
+│   │   └── HomeController.php  
+│   ├── 📁 Core  
+│   │   ├── Controller.php  
+│   │   ├── Router.php  
+│   │   ├── View.php  
+│   │   └── Database.php  
+│   ├── 📁 Models  
+│   └── 📁 Views  
+│       └── home  
+│           └── indexView.php  
+│  
+├── 📁 Public  
+│   ├── index.php  
+│   └── .htaccess  
+│  
+├── 📁 vendor  
+├── .env  
+├── .env.example  
+├── .gitignore  
+├── composer.json  
+├── composer.lock  
 └── README.md
 
 ---
@@ -132,29 +132,29 @@ Atualmente o framework já possui:
 
 ### Sprint 1 - Fundação (Concluída)
 
-✅ Estrutura inicial do projeto (App / Public / Core)
-✅ Configuração do Composer com PSR-4
-✅ Configuração de URLs amigáveis via .htaccess
-✅ Definição do ponto de entrada único (public/index.php)
-✅ Implementação do Controller base abstrato
-✅ Sistema inicial de renderização de Views
-✅ Primeira página renderizada
+- ✅ Estrutura inicial do projeto (App / Public / Core)
+- ✅ Configuração do Composer com PSR-4
+- ✅ Configuração de URLs amigáveis via .htaccess
+- ✅ Definição do ponto de entrada único (public/index.php)
+- ✅ Implementação do Controller base abstrato
+- ✅ Sistema inicial de renderização de Views
+- ✅ Primeira página renderizada
 
 ### Sprint 2 - Sistema de Rotas (Concluída)
 
-✅ Criação do Router
-✅ Parsing de URL dinâmica
-✅ Resolução automática de Controllers
-✅ Execução dinâmica de métodos
-✅ Suporte a parâmetros via URL
-✅ Integração com .env
+- ✅ Criação do Router
+- ✅ Parsing de URL dinâmica
+- ✅ Resolução automática de Controllers
+- ✅ Execução dinâmica de métodos
+- ✅ Suporte a parâmetros via URL
+- ✅ Integração com .env
 
 ### Sprint 3 - Database Layer (Concluída)
 
-✅ Criação da classe Database (PDO)
-✅ Conexão centralizada com MySQL
-✅ Integração com variáveis de ambiente
-✅ Estrutura base para Models
+- ✅ Criação da classe Database (PDO)
+- ✅ Conexão centralizada com MySQL
+- ✅ Integração com variáveis de ambiente
+- ✅ Estrutura base para Models
 
 ---
 
