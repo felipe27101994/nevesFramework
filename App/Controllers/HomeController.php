@@ -3,14 +3,13 @@
     namespace App\Controllers;
 
     use App\Core\Controller;
-    use App\Core\View;
-
+    use App\Core\View;    
     class HomeController extends Controller {
 
 
         public function index()
         {
-            View::renderView("home/index", []);   
+            View::renderView("home/index", []);
         }
 
     }
