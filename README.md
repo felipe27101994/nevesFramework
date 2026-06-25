@@ -61,16 +61,30 @@ composer install
 
 ### Sprint 1 - Fundação
 
-- [x] Estrutura inicial do projeto
-- [x] Configuração do Composer (autoload PSR-4)
-- [x] Configuração de URLs amigáveis (.htaccess)
+Nesta etapa foi estruturada a base do framework, preparando o ambiente para desenvolvimento.
+
+- [x] Estrutura inicial do projeto (App / Public / Core)
+- [x] Configuração do Composer com PSR-4 (autoload de classes)
+- [x] Configuração de URLs amigáveis via .htaccess
+- [x] Definição do ponto de entrada único (public/index.php)
+
+### Sprint 2 - Sistema de Rotas
+
+Implementação do núcleo de execução do framework.
+
+- [x] Criação do Router
+- [x] Parsing de URL dinâmica
+- [x] Resolução automática de Controllers
+- [x] Execução de métodos dinamicamente
+- [x] Suporte a parâmetros via URL
+- [x] Integração com variáveis de ambiente (.env)
 
 ---
 
-## 📌 Status do projeto
+## 📈 Evolução do Framework
 
-🚧 Em desenvolvimento  
-Versão: 0.1.1
+- 0.1.0 → Infraestrutura base
+- 0.2.0 → Sistema de rotas funcional
 
 ---
 
