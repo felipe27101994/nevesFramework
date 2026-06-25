@@ -1,0 +1,12 @@
+<?php
+
+require_once '../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(
+    dirname(__DIR__)
+);
+
+$dotenv->load();
+
+require_once '../App/Core/router.php';
+$router = new Router;
